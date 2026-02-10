@@ -1,0 +1,127 @@
+header {
+     background-image: url(../../assets/banner_bg01.jpg) ;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     width: 100%;
+     max-width: 100%;
+     height: auto;
+     margin-top: 0;
+     overflow: hidden;
+      padding: 40px 0; 
+     text-align: left;
+}
+header .row {
+     margin: 50px 0;
+}
+header .wrap-text {
+     margin-top: 50px;
+}
+header h4 {
+     color: #e4d804;
+     font-size: 30px;
+     font-weight: bold;
+}
+header h2 {
+     font-size: 60px;
+     color: #fff;
+     font-weight: bold;
+     margin-bottom: 15px;
+}
+header h2 span {
+     color: #e4d804;
+}
+header ul {
+     margin: 30px 0;
+     padding: 0;
+}
+header ul li {
+     display: inline-block;
+     margin-right: 20px;
+     color: #fff;
+     font-size: 15px;
+}
+header ul li span {
+     display: inline-block;
+     margin-right: 10px;
+}
+header ul li:first-child span {
+     text-transform: uppercase;
+}
+header ul li:first-child span:first-of-type,
+header ul li:first-child span:last-of-type {
+font-size: 12px;
+width: 50px;
+height: 25px;
+line-height: 25px;
+text-align: center;
+border: 1px solid #fff;
+}
+header ul li:first-child span:first-of-type {
+     background-color: #fff;
+     color: #171e28;
+}
+header ul li:first-child span:last-of-type {
+     background-color: transparent;
+     color: #fff;
+}
+header ul li:nth-child(2) span::first-letter {
+     text-transform: uppercase;
+}
+header ul li:nth-child(3) svg {
+     color: #e4d804;
+     margin-right: 6px;
+}
+header button,.streming-btn {
+     width: 200px;
+     height: 60px;
+     line-height: 60px;
+     text-align: center;
+     background-color:  transparent;
+     border: 1px solid #fff;
+     border-radius: 40px;
+     -webkit-border-radius: 40px;
+     -moz-border-radius: 40px;
+     -ms-border-radius: 40px;
+     -o-border-radius: 40px;
+     margin: 30px 0;
+     text-transform: uppercase;
+     font-size: 14px;
+     position: relative;
+     overflow: hidden;
+     
+}
+ header button,.streming-btn svg {
+     color: #e4d804;
+     margin-right: 10px;
+}  
+ header button::before,.streming-btn::before { 
+     position: absolute;
+     content:  '';
+     background-color: #e4d804;
+     top: 0;
+     left: 0;
+     width: 0px;
+     height: 100%;
+}
+header button:hover::before ,.streming-btn:hover::before{
+     width: 100%;
+     transition: .5s ease-in-out;
+     -webkit-transition: .5s ease-in-out;
+     -moz-transition: .5s ease-in-out;
+     -ms-transition: .5s ease-in-out;
+     -o-transition: .5s ease-in-out;
+     z-index: -1;
+} 
+header button,.streming-btn:hover ,header button,.streming-btn:hover svg {
+     color: #fff;
+     z-index: 999;
+     transition: .5s ease-in-out;
+     -webkit-transition: .5s ease-in-out;
+     -moz-transition: .5s ease-in-out;
+     -ms-transition: .5s ease-in-out;
+     -o-transition: .5s ease-in-out;
+}
+header button,.streming-btn:hover {
+     border: 1px solid #e4d804;
+} 

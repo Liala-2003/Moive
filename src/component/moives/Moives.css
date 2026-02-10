@@ -1,0 +1,24 @@
+.homemovies {
+     /* background-image: url(); */
+     background-color: #1c252e;
+     width: 100%;
+     height: auto;
+     overflow: hidden;
+}
+.homemovies .overly {
+     padding: 90px 0;
+     background-color:#1c252e;
+}
+.homemovies .overly .row:first-child {
+     margin: 60px 0 40px 0;
+}
+.homemovies .overly .col-lg-12 span {
+     color: #e4d804;
+     font-size: 14px;
+}
+.homemovies .overly .col-lg-12 h2 {
+     color: #fff;
+     font-size: 38px;
+     font-weight: bold;
+     margin: 15px 0;
+}

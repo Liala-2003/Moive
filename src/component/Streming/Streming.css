@@ -1,0 +1,13 @@
+.about-section h2 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.about-section p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+ .streming-btn{
+  color: #000;
+ border: 1px solid #e4d804;
+} 

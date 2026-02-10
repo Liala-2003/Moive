@@ -1,0 +1,23 @@
+.subscribe-section {
+  background-color: #f9c800;
+  padding: 50px 0;
+}
+.subscribe-section h4 {
+  font-weight: 700;
+  color: #000;
+}
+.subscribe-section p {
+  color: #333;
+  margin-top: 10px;
+}
+.subscribe-form {
+  display: flex;
+  gap: 10px;
+}
+.subscribe-form input {
+  height: 50px;
+}
+.subscribe-form button {
+  height: 50px;
+  padding: 0 25px;
+}

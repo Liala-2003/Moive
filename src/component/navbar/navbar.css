@@ -1,0 +1,78 @@
+nav {
+     width: 100%;
+     height: auto;
+     padding: 20px 0;
+     background-color: transparent;
+     position: absolute;
+     top: 0;
+     z-index: 1000;
+     background-color: rgb(2, 1, 19);
+}
+
+nav .navbar-brand img {
+     max-width: 100%;
+}
+nav .Link {
+     color: #fff;
+     font-size: 20px;
+     text-align: center;
+     margin: 0 10px;
+     text-decoration: none;
+     transition: all 3.s ease-in-out;
+     -webkit-transition: all 3.s ease-in-out;
+     -moz-transition: all 3.s ease-in-out;
+     -ms-transition: all 3.s ease-in-out;
+     -o-transition: all 3.s ease-in-out;
+     font-weight: bold;
+}
+nav .Link:hover  {
+color: #e4d804;
+}
+.active {
+     color:#e4d804 ;
+}
+.nav-right {
+     display: flex;
+    justify-content: center;
+     align-items: center;
+     margin: 20px 0;
+}
+.search span{
+      font-size: 22px;
+      color: #fff;
+      margin: 0px 15px;
+      border-right: 1px solid #fff;
+      padding: 4px;
+      transition: all 3.s ease-in-out;
+      -webkit-transition: all 3.s ease-in-out;
+      -moz-transition: all 3.s ease-in-out;
+      -ms-transition: all 3.s ease-in-out;
+      -o-transition: all 3.s ease-in-out;
+}
+.search span:hover {
+     color: #e4d804;
+}
+.nav-right select {
+     padding: 2px 5px;
+     color: #e4d804;
+     margin: 0px 10px;
+     border: 1px solid #e4d804;
+     font-size: 20px;
+}
+.nav-right button {
+     padding: 5px 10px;
+     border: 1px solid #e4d804;
+     font-size: 16px;
+     font-weight: bold;
+      color: #fff;
+     border-radius: 8px;
+     -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+     -ms-border-radius: 8px;
+     -o-border-radius: 8px;
+    background-color: transparent;
+}
+.nav-right button:hover {
+     background-color: #e4d804;
+}
+
